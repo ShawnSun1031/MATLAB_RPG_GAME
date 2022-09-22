@@ -1,0 +1,223 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\我的matlab\finial\midguide.prj" location="D:\我的matlab\finial" name="midguide" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>midguide</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\698363.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\midguide\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\midguide\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\midguide\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\midguide\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\midguide</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\midguide.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\2.png</file>
+      <file>${PROJECT_ROOT}\ball.m</file>
+      <file>${PROJECT_ROOT}\ball1.m</file>
+      <file>${PROJECT_ROOT}\ball1_2.m</file>
+      <file>${PROJECT_ROOT}\ball2.m</file>
+      <file>${PROJECT_ROOT}\ball2_1.m</file>
+      <file>${PROJECT_ROOT}\ball2_2.m</file>
+      <file>${PROJECT_ROOT}\ball3.m</file>
+      <file>${PROJECT_ROOT}\fart.wav</file>
+      <file>${PROJECT_ROOT}\fart2.wav</file>
+      <file>${PROJECT_ROOT}\game2_in_2.fig</file>
+      <file>${PROJECT_ROOT}\game2_in_2.m</file>
+      <file>${PROJECT_ROOT}\game2_in_2_1.fig</file>
+      <file>${PROJECT_ROOT}\game2_in_2_1.m</file>
+      <file>${PROJECT_ROOT}\game2_in_2_2.fig</file>
+      <file>${PROJECT_ROOT}\game2_in_2_2.m</file>
+      <file>${PROJECT_ROOT}\game2_in_2_3.fig</file>
+      <file>${PROJECT_ROOT}\game2_in_2_3.m</file>
+      <file>${PROJECT_ROOT}\game_description.fig</file>
+      <file>${PROJECT_ROOT}\game_description.m</file>
+      <file>${PROJECT_ROOT}\game_in_2.fig</file>
+      <file>${PROJECT_ROOT}\game_in_2.m</file>
+      <file>${PROJECT_ROOT}\game_in_2_1.fig</file>
+      <file>${PROJECT_ROOT}\game_in_2_1.m</file>
+      <file>${PROJECT_ROOT}\game_in_2_2.fig</file>
+      <file>${PROJECT_ROOT}\game_in_2_2.m</file>
+      <file>${PROJECT_ROOT}\game_in_2_3.fig</file>
+      <file>${PROJECT_ROOT}\game_in_2_3.m</file>
+      <file>${PROJECT_ROOT}\game_lose.fig</file>
+      <file>${PROJECT_ROOT}\game_lose.m</file>
+      <file>${PROJECT_ROOT}\game_win.fig</file>
+      <file>${PROJECT_ROOT}\game_win.m</file>
+      <file>${PROJECT_ROOT}\midguide.fig</file>
+      <file>${PROJECT_ROOT}\player1_win.fig</file>
+      <file>${PROJECT_ROOT}\player1_win.m</file>
+      <file>${PROJECT_ROOT}\player2_win.fig</file>
+      <file>${PROJECT_ROOT}\player2_win.m</file>
+      <file>${PROJECT_ROOT}\test.fig</file>
+      <file>${PROJECT_ROOT}\test.m</file>
+      <file>${PROJECT_ROOT}\test2.fig</file>
+      <file>${PROJECT_ROOT}\test2.m</file>
+      <file>${PROJECT_ROOT}\win.mp3</file>
+      <file>${PROJECT_ROOT}\丞凱1.jpg</file>
+      <file>${PROJECT_ROOT}\丞凱2.jpg</file>
+      <file>${PROJECT_ROOT}\丞凱3.PNG</file>
+      <file>${PROJECT_ROOT}\丞凱4.jpg</file>
+      <file>${PROJECT_ROOT}\丞凱5.jpg</file>
+      <file>${PROJECT_ROOT}\丞凱6.png</file>
+      <file>${PROJECT_ROOT}\光頭.mp3</file>
+      <file>${PROJECT_ROOT}\卡比.PNG</file>
+      <file>${PROJECT_ROOT}\小朋友下樓梯音效.mp3</file>
+      <file>${PROJECT_ROOT}\戰鬥音效.mp3</file>
+      <file>${PROJECT_ROOT}\故事2.mp3</file>
+      <file>${PROJECT_ROOT}\故事3.mp3</file>
+      <file>${PROJECT_ROOT}\故事一.mp3</file>
+      <file>${PROJECT_ROOT}\星星.png</file>
+      <file>${PROJECT_ROOT}\星星集團2.PNG</file>
+      <file>${PROJECT_ROOT}\東京.mp3</file>
+      <file>${PROJECT_ROOT}\泳池.jpg</file>
+      <file>${PROJECT_ROOT}\王國之心.png</file>
+      <file>${PROJECT_ROOT}\玩家1.png</file>
+      <file>${PROJECT_ROOT}\瑪莉歐死掉音效.mp3</file>
+      <file>${PROJECT_ROOT}\發射.wav</file>
+      <file>${PROJECT_ROOT}\神奇寶貝.mp3</file>
+      <file>${PROJECT_ROOT}\米奇.png</file>
+      <file>${PROJECT_ROOT}\警告.PNG</file>
+      <file>${PROJECT_ROOT}\遊戲說明1.jpg</file>
+      <file>${PROJECT_ROOT}\限制級.PNG</file>
+      <file>${PROJECT_ROOT}\飛天小女警.PNG</file>
+      <file>${PROJECT_ROOT}\馬力歐.png</file>
+      <file>${PROJECT_ROOT}\馬大叔.PNG</file>
+      <file>${PROJECT_ROOT}\魔法咪嚕咪嚕.mp3</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\midguide\for_testing" name="midguide.exe" optional="false">D:\我的matlab\finial\midguide\for_testing\midguide.exe</file>
+      <file location="${PROJECT_ROOT}\midguide\for_testing" name="readme.txt" optional="true">D:\我的matlab\finial\midguide\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\midguide\for_testing" name="splash.png" optional="false">D:\我的matlab\finial\midguide\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\matlab</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
